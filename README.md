@@ -9,4 +9,7 @@ react and css loading animation based on a reddit post on r/generative
 ![circleLoader](https://user-images.githubusercontent.com/60950660/152283521-ff5a4c82-e2ed-4f09-8d2d-ce03650bcb68.gif)
 
 
+![wheelLoader](https://user-images.githubusercontent.com/60950660/152607368-68e6aedc-fb32-445f-a871-b13951ba9994.gif)
+
+
 Mess with angle, iterations, and timing to change the effect

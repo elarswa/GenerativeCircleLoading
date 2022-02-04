@@ -2,7 +2,7 @@
 // set Iterations to 20 and delay to 20
 const MAX_ANGLE = 180;
 const ITERATIONS = 10;
-const DELAY = 8;
+const DELAY = 8.2;
 const ROTATION_DELAY = 15;
 const angles = Array(ITERATIONS)
   .fill(0)

@@ -2,11 +2,16 @@ html,
 body {
   height: 100%;
   width: 100%;
+  background-color: #212121;
 }
 
 :root {
   --BIG_SCALE: 20;
   --TIMING: 3s;
+  --COL: #ffffff;
+  --MOV_COL: #ee616c;
+  --B_COL: #212121;
+  --B_COL: rgb(35, 44, 65);
 }
 
 .help {
@@ -27,7 +32,7 @@ body {
 }
 
 .container {
-  background-color: rgb(35, 44, 65);
+  background-color: var(--B_COL);
   border-radius: 20%;
   height: 300px;
   left: 50%;
@@ -50,7 +55,7 @@ body {
   position: absolute;
   left: 0%;
   border-radius: 50%;
-  border: 2px solid white;
+  border: 2px solid var(--COL);
   height: 4px;
   width: 4px;
   animation-name: breathe;
@@ -65,7 +70,7 @@ body {
   position: absolute;
   right: 0%;
   border-radius: 50%;
-  border: 2px solid white;
+  border: 2px solid var(--COL);
   height: 4px;
   width: 4px;
   animation-name: breatheComplement;
@@ -80,8 +85,8 @@ body {
   position: absolute;
   left: 0%;
   border-radius: 50%;
-  border: 2px solid white;
-  background-color: white;
+  border: 2px solid var(--MOV_COL);
+  background-color: var(--MOV_COL);
   height: 4px;
   width: 4px;
   animation-name: occilate;
@@ -90,6 +95,7 @@ body {
   animation-iteration-count: infinite;
   transform-origin: center;
   transform: translate(-50%, -50%);
+  z-index: 1;
 }
 @keyframes occilate {
   0% {
